@@ -1,0 +1,100 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Segoe UI";
+  color: orange;
+  background-color: black;
+  padding: 24px;
+}
+
+h1 {
+  font-family: "Segoe UI";
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.profPic {
+  padding: 0.5em;
+  margin: 0.3em;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+
+.post {
+  display: flex;
+  width: 600px;
+  background-color: black;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 1.5em 1em;
+}
+
+.right {
+  flex-grow: 1;
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.handle {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+h4 {
+  margin-top: 1em;
+}
+
+.postImage {
+  margin-top: 1.5em;
+  margin-right: 1em;
+  max-width: 100%;
+  border-radius: 22px;
+}
+
+.handlena {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form {
+  width: 600px;
+  padding: 1em;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  display: flexbox;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+input {
+  border-radius: 22px;
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+button {
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  border-radius: 22px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
